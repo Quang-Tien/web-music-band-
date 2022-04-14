@@ -1,0 +1,97 @@
+/* PC */
+@media (min-width: 1024px) {
+
+}
+
+/* Ipad and Mobile */
+@media (max-width: 1023px) {  
+    .btn {
+        padding: 14px 16px;
+    }
+
+    .contact-form .form-control {
+        padding: 12px;
+    }
+
+    .social-links a {
+        font-size: 25px;
+        margin: 0px 10px;
+    }
+
+    .power-source {
+        font-size: 18px;
+    }
+
+    .contact-info {
+        font-size: 18px;
+    }
+}
+/* Ipad */
+@media (min-width: 740px) and (max-width: 1023px) {
+    .contact-info {
+        line-height: 1.8;
+    }
+}
+
+
+/* Mobile */
+@media (max-width: 739px){  
+    .s-full-width,
+    .s-col-full {
+        width: 100% !important;
+    }
+
+    #header {
+        overflow: hidden;
+    }
+
+    #header .search-button {
+        display: none;
+    }
+
+    #header .mobile-menu-btn {
+        display: block;
+    }
+
+    #nav {
+        display: block;
+    }
+
+    #nav li {
+        display: block;
+    }
+
+    #nav li a{
+        padding: 1px 24px;
+    }
+
+    #nav > li:first-child {
+        display: inline-block;
+    }
+
+    #nav .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    
+    #nav .subnav a {
+        color: #fff;
+        padding: 5px 35px;
+        border-bottom: 1px solid #ccc;
+    }
+       
+    #content .member-img {
+        width: 60%;
+    }
+
+    #content .member-item {
+        float: none;
+        width: 100%;
+        margin-bottom: 32px;
+    }
+
+    #content .contact-form {
+        margin-top: 32px;
+    }
+
+}
